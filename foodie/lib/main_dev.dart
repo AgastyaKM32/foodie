@@ -4,7 +4,7 @@ import 'package:foodie/app.dart';
 void main() {
   runApp(
     const MyApp(
-      title: 'Foodie',
+      title: 'Foodie - DEV',
     ),
   );
 }
