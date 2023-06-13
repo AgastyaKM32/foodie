@@ -9,6 +9,8 @@
 .history
 .svn/
 migrate_working_dir/
+/ios/Runner.xcodeproj/project.pbxproj
+*.lock
 
 # IntelliJ related
 *.iml
