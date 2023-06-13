@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodie/presentation/home_page.dart';
+import 'package:foodie/presentation/common_widgets.dart/foodie_color_converter.dart';
+import 'package:foodie/presentation/login_screen/login_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key, required this.title});
@@ -7,9 +8,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// converted to material color
+    final MaterialColor swatchColor =
+        MaterialColor(0xFFEC2578, FoodieColorConverter.color);
     return MaterialApp(
       title: title,
-      home: const HomePage(),
+      theme: ThemeData(
+        primarySwatch: swatchColor,
+      ),
+      home: const LoginScreen(),
     );
   }
 }

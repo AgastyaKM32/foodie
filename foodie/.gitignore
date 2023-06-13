@@ -10,6 +10,12 @@
 .svn/
 migrate_working_dir/
 /ios/Runner.xcodeproj/project.pbxproj
+/ios/Podfile
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/macos
+/windows
+/web
 *.lock
 
 # IntelliJ related
