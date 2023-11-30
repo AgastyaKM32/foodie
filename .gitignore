@@ -30,7 +30,7 @@ windows
 linux
 test
 web
-pubspec.lock
+*.lock
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
