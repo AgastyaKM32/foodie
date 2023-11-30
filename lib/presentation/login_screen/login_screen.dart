@@ -74,7 +74,7 @@ class LoginScreen extends StatelessWidget {
               //   elevation: 4,
               // ),
             ),
-          )
+          ),
         ],
       ),
       // Stack(
